@@ -115,4 +115,4 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run(host="https://path-prediction-bot.herokuapp.com/")
+    app.run(debug=True)
