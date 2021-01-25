@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return render_template('index.html')
+    return render_template('FrontPage.html')
 
 
 @app.route('/Predict', methods=['POST', 'GET'])
