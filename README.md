@@ -10,10 +10,18 @@ In this we used Q learning algorithm which helps agent to reach the distination 
 2. go to root directry 
 3. run in python compiler or IDE
 4. now run the app.py file 
-5. after running the appy.py file you need to click on the localhost link generated which will redirect you to the default browser.![image](https://user-images.githubusercontent.com/42388388/118406006-1fd0e480-b698-11eb-9a31-366a23245197.png)
-6. once you click on the link a webpage would open like this ![image](https://user-images.githubusercontent.com/42388388/118406868-81df1900-b69b-11eb-8f2f-6e3ee5821021.png)
-7. now enter the room number of your choice and click the predict button ![image](https://user-images.githubusercontent.com/42388388/118406850-66740e00-b69b-11eb-835a-91e02e85d549.png)
-8. now the result is displayed based on user input ![image](https://user-images.githubusercontent.com/42388388/118406971-092c8c80-b69c-11eb-914c-16827250b5eb.png)
+5. after running the appy.py file you need to click on the localhost link generated which will redirect you to the default browser. 
+   
+   ![image](https://user-images.githubusercontent.com/42388388/118406006-1fd0e480-b698-11eb-9a31-366a23245197.png)
+6. once you click on the link a webpage would open like this 
+   
+   ![image](https://user-images.githubusercontent.com/42388388/118406868-81df1900-b69b-11eb-8f2f-6e3ee5821021.png)
+7. now enter the room number of your choice and click the predict button 
+   
+   ![image](https://user-images.githubusercontent.com/42388388/118406850-66740e00-b69b-11eb-835a-91e02e85d549.png)
+8. now the result is displayed based on user input 
+
+   ![image](https://user-images.githubusercontent.com/42388388/118406971-092c8c80-b69c-11eb-914c-16827250b5eb.png)
 
 
 
