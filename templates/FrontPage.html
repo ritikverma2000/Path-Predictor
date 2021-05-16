@@ -7,7 +7,7 @@
     <title>ML BOT RVTS</title>
 <style>
 body {
-  background-image: url('https://images.pexels.com/photos/276299/pexels-photo-276299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-color: lightyellow;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -32,10 +32,17 @@ body {
 
 <body >
 
- <h1 style="font-size:300%;color:SlateBlue;font-family:Open Sans Condensed;text-align:center">ML Bot Path Detection</h1>
+<h1 style="font-size:320%;margin-left:50px;color:SlateBlue;font-family:monospace;text-align:center"><b><I>Path Predictor</I></b></h1>
 <form action ="http://127.0.0.1:5000/Predict" method="POST">
-    <p style="font-size:30px;color:green;font-family:Open Sans Condensed;text-align:center"> Room number <input type="Text" name="Room_no"/></p>
-    <p style="font-family:Open Sans Condensed;text-align:center;"><input type="submit" value="Predict"/></p>
+    <hr/>
+    <p style="font-size:30px;color:green;font-family: monospace;text-align:center;margin-left: 30px"> Enter the room number
+        </p>
+    <input style="margin: 15px 10px 90px 655px;height: 20px;width: 200px" type="Text" name="Room_no"/>
+    <p style="font-family:monospace;text-align:center;margin: -20px;"><input style="background-color: aquamarine;font-family: monospace;height: 30px;border-radius: 25px;margin-left: 15px" type="submit" value="Predict"/></p>
+    <div>
+         <img style="width: 600px; margin: 55px -10px 50px 480px;" src="https://d18l82el6cdm1i.cloudfront.net/uploads/mf7THWHAbL-mazegif.gif" alt="maze_image">
+
+    </div>
 
 
 </form>
