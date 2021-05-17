@@ -22,6 +22,7 @@ gamma = 0.8
 
 initial_state = random.choice([0, 1, 2, 3, 4])
 
+
 # This function returns all available actions in the state given as an argument
 def available_actions(state):
     current_state_row = R[state,]
@@ -88,7 +89,7 @@ current_state = 3
 steps = [current_state]
 
 while current_state != 5:
-    next_step_index = np.where(Q[current_state, ] == np.max(Q[current_state, ]))[1]
+    next_step_index = np.where(Q[current_state,] == np.max(Q[current_state,]))[1]
 
     if next_step_index.shape[0] > 1:
         next_step_index = int(np.random.choice(next_step_index, size=1))
@@ -103,4 +104,3 @@ while current_state != 5:
 print("Selected path:")
 print(type(current_state))
 print(steps)
-

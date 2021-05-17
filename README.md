@@ -2,6 +2,7 @@
 This project is based on the reinforcement learning which is a type of machine learning technique that enables an agent to learn in an interactive environment by trial and error using feedback from its own actions and experiences.
 In this we used Q learning algorithm which helps agent to reach the distination room from the current room.
 
+
 # Room-layout
 # ![image](https://user-images.githubusercontent.com/42388388/118405504-d2ec0e80-b695-11eb-8226-fcf3ce3e62ed.png)
 
